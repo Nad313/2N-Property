@@ -1,0 +1,11 @@
+# Create new React project
+npm create vite@latest propertyhub-demo -- --template react
+cd propertyhub-demo
+npm install
+
+# Install dependencies
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# Additional useful packages
+npm install react-icons lucide-react
